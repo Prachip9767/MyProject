@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="MoneyManager.adapters.databases.interfaces.Ui.LogInActivity">
+    <TextView
+        android:layout_marginStart="150dp"
+        android:textColor="#ff355e"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"/>
+    <LinearLayout
+        android:layout_margin="20dp"
+       android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            />
+        <EditText
+            android:textColorHint="@color/white"
+            android:hint="Enter Email"
+            android:padding="20dp"
+            android:background="#ff355e"
+            android:id="@+id/etEmaill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            />
+        <EditText
+            android:textStyle="bold"
+            android:textColorHint="@color/white"
+            android:hint="Enter Password"
+            android:background="#ff355e"
+            android:padding="20dp"
+            android:id="@+id/etPasswordl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:background="#ff355e"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/btnLoginL"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LogIn"/>
+        <Button
+            android:textColor="@color/white"
+            android:background="#ff355e"
+            android:layout_gravity="center"
+            android:id="@+id/btnSignUpl"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sign Up"/>
+    </LinearLayout>
+
+</FrameLayout>
